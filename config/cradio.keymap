@@ -34,12 +34,6 @@
     combos {
         compatible = "zmk,combos";
 
-        alt_tab {
-            bindings = <&kp LA(TAB)>;
-            key-positions = <38 13 31>;
-            layers = <0>;
-        };
-
         enter {
             bindings = <&kp ENTER>;
             key-positions = <16 17>;
@@ -73,6 +67,11 @@
             key-positions = <2 3>;
             require-prior-idle-ms = <125>;
             layers = <1>;
+        };
+
+        alt_tab {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <31 13>;
         };
     };
 
