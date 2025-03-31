@@ -39,39 +39,44 @@
             key-positions = <16 17>;
             require-prior-idle-ms = <125>;
             layers = <0>;
+            timeout-ms = <30>;
         };
 
         escape {
             bindings = <&kp ESCAPE>;
             key-positions = <12 13>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <200>;
             layers = <0>;
+            timeout-ms = <30>;
         };
 
         apostrophe {
             bindings = <&kp APOSTROPHE>;
             key-positions = <7 6>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <200>;
             layers = <0>;
+            timeout-ms = <30>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <26 27>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <200>;
             layers = <0>;
+            timeout-ms = <30>;
         };
 
         sleep {
             bindings = <&kp K_SLEEP>;
             key-positions = <2 3>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
             layers = <1>;
         };
 
         alt_tab {
             bindings = <&kp LA(TAB)>;
             key-positions = <31 13>;
+            layers = <0>;
         };
     };
 
