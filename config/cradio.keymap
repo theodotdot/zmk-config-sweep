@@ -37,7 +37,7 @@
         enter {
             bindings = <&kp ENTER>;
             key-positions = <16 17>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <200>;
             layers = <0>;
             timeout-ms = <30>;
         };
@@ -53,17 +53,15 @@
         apostrophe {
             bindings = <&kp APOSTROPHE>;
             key-positions = <7 6>;
-            require-prior-idle-ms = <200>;
             layers = <0>;
-            timeout-ms = <30>;
+            timeout-ms = <40>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <26 27>;
-            require-prior-idle-ms = <200>;
             layers = <0>;
-            timeout-ms = <30>;
+            timeout-ms = <40>;
         };
 
         sleep {
