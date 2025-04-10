@@ -1,0 +1,161 @@
+layout: {zmk_keyboard: cradio}
+layers:
+  MAIN:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: LSHFT}
+  - {t: S, h: LEFT GUI}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LEFT ALT}
+  - G
+  - H
+  - {t: J, h: LEFT ALT}
+  - {t: K, h: RIGHT CONTROL}
+  - {t: L, h: RIGHT GUI}
+  - ;
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: BACKSPACE, h: LEFT SHIFT}
+  - {t: TAB, h: num_fun}
+  - {t: DELETE, h: RIGHT ALT}
+  - {t: SPACE, h: nav}
+  nav:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
+  - LEFT SHIFT
+  - LEFT GUI
+  - LEFT CONTROL
+  - LEFT ALT
+  - VOLUME UP
+  - CAPSLOCK
+  - LEFT
+  - DOWN
+  - UP ARROW
+  - RIGHT
+  - PLAY PAUSE
+  - PREVIOUS
+  - NEXT
+  - MUTE
+  - VOLUME DOWN
+  - PRINTSCREEN
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
+  - END
+  - {t: ▽, type: trans}
+  - Sft+TAB
+  - {t: ▽, type: trans}
+  - {type: held}
+  num_fun:
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  BT:
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - BT CLR
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - ''
+  - {type: held}
+  - ''
+  - {type: held}
+combos:
+- p: [16, 17]
+  k: ENTER
+  l: [MAIN]
+- p: [12, 13]
+  k: ESCAPE
+  l: [MAIN]
+- p: [7, 6]
+  k: ''''
+  l: [MAIN]
+- p: [26, 27]
+  k: '`'
+  l: [MAIN]
+- p: [2, 3]
+  k: SLEEP
+  l: [nav]
+- p: [31, 13]
+  k: Alt+TAB
+  l: [MAIN]
