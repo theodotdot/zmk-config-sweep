@@ -140,12 +140,47 @@ layers:
   - {type: held}
   - ''
   - {type: held}
+  mouse:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MB3'
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  - ''
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
+  - '&msc SCRL_RIGHT'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_DOWN'
+  - '&msc SCRL_UP'
+  - ''
+  - ''
+  - ''
+  - '&mkp MB2'
+  - '&mkp MB1'
 combos:
 - p: [16, 17]
   k: ENTER
   l: [MAIN]
 - p: [12, 13]
-  k: ESCAPE
+  k: {t: ESCAPE, h: mouse}
   l: [MAIN]
 - p: [7, 6]
   k: ''''
